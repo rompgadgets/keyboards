@@ -17,7 +17,16 @@ IRIS Rev 4 Kit | Keeb.io
 
 ## Build
 
-Following the build guide on [keeb.io](https://docs.keeb.io/iris-rev3-build-guide). I got started
+Following the build guide on [keeb.io](https://docs.keeb.io/iris-rev3-build-guide). I got started:
+
+1. Install any 2-u stabilizers.
+2. Solder any rotary encoders.
+3. Solder the in switch LEDs.
+4. Install switches onto the switch plate.
+5. Solder all the switches.
+6. Attach mid layer and bottom plate to complete the case.
+7. Flash any QMK firmware changes.
+8. Tweak and update your keymap as you go using VIA.
 
 Stabilizer install was fairly straight forward, but I used this [video](https://www.youtube.com/watch?v=D21Ocg9kVsU) to put together the 2-u stabilizer I used for space on the left hand side.
 
