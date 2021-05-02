@@ -84,7 +84,7 @@ After printing with 10% fill which took about 5 hours.
 
 ![setup](img/wrist_rest/wrist_rest_setup_c.jpg)
 
-There are also holes on the bottom to fit 3M rubber feet to avoid the wrist rest sliding when in use.  STL files for the design are [here](stl/iris_wrist_rest_my_desig_v11.stl)
+There are also holes on the bottom to fit 3M rubber feet to avoid the wrist rest sliding when in use.  STL files for the design are [here](stl/iris_wrist_rest_od_v2.stl)
 
 ## Final Build
 
