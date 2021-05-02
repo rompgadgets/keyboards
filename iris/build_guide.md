@@ -59,7 +59,7 @@ I used the STL file to print a black PLA tented middle layer from the (keeb.io g
 
 ![reduce usb c face](img/reduce_usb_c_plate.PNG)
 
-Due to the tolerances on the printer I did have to drill out the carriage bolt holes and the fastener holes on the final tent layer to ensure everything fit properly.  Modified STL is located [here](stl/iris_rev4_tent_middle_layerv6.stl)
+Due to the tolerances on the printer I did have to drill out the carriage bolt holes and the fastener holes on the final tent layer to ensure everything fit properly.  Modified STL is located [here](stl/iris_rev4_tent_middle_layer_v6.stl)
 
 ![fasteners](img/fasteners.jpeg)
 
