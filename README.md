@@ -1,5 +1,5 @@
 # keyboards
-Write ups from various keyboard builds.
+Keyboard build write ups.
 - keeb.io [Iris Rev 4](iris/build_guide.md)
 - mechboards.co.uk Lily58 Pro
 
