@@ -110,4 +110,4 @@ A quick guide for setting up a qmk build environment is detailed [here](https://
 
 A few modifications were done based on the VIA keymap to set the right side encoder to work as volume up and down except when layer 3 is toggled.  When layer 3 is turned on the encoder switches to scroll up and scroll down.
 
-These firmware changes are in the viasig directory located [here](https://www.github.com)
+These firmware changes are in the viasig directory located [here](https://github.com/rompgadgets/qmk_firmware/tree/master/keyboards/keebio/iris/keymaps/viasig)
