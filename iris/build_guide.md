@@ -32,7 +32,7 @@ Stabilizer install was fairly straight forward, but I used this [video](https://
 
 Next, was installing the rotary encoder on the right hand side.  This step matched the keebio guide exactly.
 
-![white leds](img/white_key_leds.jpg)
+![white leds](img/white_key_leds_c.jpg)
 
 Third, was putting in each 1.8 mm key switch LED from Evil Mad Science LLC.  I eventually went with placing one of my Kaihl box navy switches on top of the LED and then flipping the board over and soldering the LED in.  The switch was just held in place against my table.  This ensured the LED didn't move during soldering and would fit when the switch was installed later in the build.  There isn't a lot of room for the LED in the box switches, so early on I had some fit issues.
 
