@@ -259,4 +259,4 @@ Having a keyboard with OLED screens meant making some code modifications to crea
 Showing the number of left hand key presses for right hand key presses with the standard key logger display.
 ![stat](img/balance_stat.png)
 
-These mods are in a branch on the QMK fork located here.
+These mods are in a branch on the QMK fork located [here](https://github.com/rompgadgets/qmk_firmware/tree/balance).
