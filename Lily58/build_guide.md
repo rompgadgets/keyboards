@@ -260,3 +260,5 @@ Showing the number of left hand key presses for right hand key presses with the 
 ![stat](img/balance_stat.png)
 
 These mods are in a branch on the QMK fork located [here](https://github.com/rompgadgets/qmk_firmware/tree/balance).
+
+One thing to call out is I did have issues with the OLED not sleeping when the PC it was connected to went into hibernate.  This code snippet seems to [fix](https://github.com/rompgadgets/qmk_firmware/blob/c065f63c31112864ba70aeded8f982b53eff3c63/keyboards/lily58/keymaps/viasig/keymap.c#L279-L282) it.
