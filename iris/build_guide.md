@@ -101,6 +101,10 @@ There are also holes on the bottom to fit 3M rubber feet to avoid the wrist rest
 
 ![build second](img/image2.jpeg)
 
+Swapped the black mid layer for a clear one
+![rgb one](img/image8_c.jpeg)
+![rgb two](img/purple_tented_c.jpeg)
+![rgb three](img/dark_purple_tented_c2.jpeg)
 ## Keymap
 
 I've used VIA to build up a keymap that has worked pretty well for normal use as well as programming which requires a lot of special key use. [keymap](keymap/iris_rev__4_second.json)
