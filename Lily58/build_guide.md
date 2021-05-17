@@ -136,6 +136,11 @@ Writing | ################################################## | 100% 45.61s
 
 After updating the left side bootloader a test can be done using QMK toolbox to make sure you can flash a keymap as expected.  In order to put the Pro micro in reset you can ground the GND pin and the RESET pin using tweezers.  QMK toolbox should then flash the keymap image and VIA will recognize the Pro micro as a Lily 58.
 
+After having some weird power issues I did go back to the stock caterina bootloader:
+```
+avrdude -c avrispmkii -p m32u4 -P usb -U flash:w:"Caterina-promicro16.hex":a -U lfuse:w:0xFF:m -U hfuse:w:0xD8:m -U efuse:w:0xC3:m -U lock:w:0x3F:m 
+```
+
 ## Solder the OLED jumpers
 
 At this point its a good idea to put solder across the jumpers to enable the OLEDs.  This is pretty straight forward if using enough heat on the soldering iron and solder.  Each pad should end up bridged as seen here.  
@@ -260,5 +265,7 @@ Showing the number of left hand key presses for right hand key presses with the 
 ![stat](img/balance_stat.png)
 
 These mods are in a branch on the QMK fork located [here](https://github.com/rompgadgets/qmk_firmware/tree/balance).
+
+This is the [keymap](https://github.com/rompgadgets/qmk_firmware/tree/balance/keyboards/lily58/keymaps/viasig) used with the changes from the above branch.
 
 One thing to call out is I did have issues with the OLED not sleeping when the PC it was connected to went into hibernate.  This code snippet seems to [fix](https://github.com/rompgadgets/qmk_firmware/blob/c065f63c31112864ba70aeded8f982b53eff3c63/keyboards/lily58/keymaps/viasig/keymap.c#L279-L282) it.
