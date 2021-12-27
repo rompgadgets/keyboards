@@ -195,3 +195,9 @@ I had to lower the max brightness of the LEDs to 120 in order to avoid some issu
 ## Keymap
 
 I've used VIA to build up a keymap that has worked pretty well for normal use as well as programming which requires a lot of special key use. [keymap](keymap/sofle_first.json)
+
+## RGB Matrix
+
+I added support for the "new" RGB matrix API in QMK, so that some of the more advanced LED animations work.  This is done on an older branch of QMK and did require turning off one of the OLEDs due to memory constraints.  The file is included here.
+
+![matrix](img/matrix.gif)
